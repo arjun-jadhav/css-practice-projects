@@ -9,3 +9,52 @@
 
     text-transform: capitalize;
 }
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.overline{
+    text-decoration: overline;
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+.bg-color{
+    background-color: blue;
+}
+.t_decor{
+    text-decoration: dashed underline overline;
+}
+.text-indent{
+    text-indent: 90px;
+}
+
+.letter-space{
+    letter-spacing: 10px;
+}
+.word-space{
+    word-spacing: 10px;
+}
+.line-hight{
+    line-height: 30px;
+}
+
+.text-shadow{
+
+}
+
+.p2{
+    font-size: 100px;
+}
+
+.p1{
+    font-size: 60px;
+}
+
