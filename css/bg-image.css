@@ -1,0 +1,47 @@
+/* body{
+    background-color: blue;
+    background-image: url("/img/logo.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+     */
+
+h1{
+    color: white;
+    
+}
+
+.div1{
+    border-radius: 10px;
+    height: 200px;
+    background-color: brown;
+    background-image: linear-gradient(to right, red,white,green);
+
+}
+
+.div2{
+    border-radius: 10px;
+    height: 200px;
+    background-color: brown;
+    background-image: radial-gradient(circle,red,yellow,black,green);
+}
+
+.div3{
+
+    height: 200px;
+    border-radius: 10px;
+    background-color: brown;
+    background-image: conic-gradient(red 45deg,yellow 80deg,black 210deg,orange 90deg);
+}
+
+#div4{
+    border-radius: 10px;
+    height: 200px;
+    background-color: blue;
+    background-image: url("/img/logo.png");
+    background-repeat: no-repeat;
+    background-size:contain; 
+}
+
+.img1{
+    width: 210px;
+}
