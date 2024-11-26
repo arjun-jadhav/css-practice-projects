@@ -1,0 +1,40 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.flex-items{
+    background-color: blueviolet;
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+
+
+.flex-img{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+    flex-basis: content;
+    justify-content: space-around;
+}
+
+.flex-imgs{
+    border-radius: 12px;
+    width: 110px;
+    height: 110px;
+    padding: 5px;
+    margin: 10px;
+   
+}
+
+
+.grid-img{
+    g
+}
