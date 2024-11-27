@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            position: relative;
+            animation: myfirstanimation;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+        }
+        @keyframes myfirstanimation
+        {
+            0%{background-image: url(imags/Best\ Dog\ Names\ for\ Golden\ Retrievers.jpg);left: 0px;top: 0px;}
+           25%{background-color: rgb(205, 50, 153);left: 300px;top: 0px;}
+           50%{background-color: rgb(18, 59, 193);left: 300px;top: 300px;}
+           75%{background-color: rgb(165, 209, 62);left: 0px;top: 200px;}
+           100%{background-color: rgb(21, 243, 43);left: 0px;top: 0px;}
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
